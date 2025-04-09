@@ -2,6 +2,8 @@
 - Create new python env
 - Install the requirements.txt
 - Run project 'python manage.py runserver'
+- Admin user: root
+- Admin pass: 123
 
 # Product requirements
 Geração do Link
