@@ -44,8 +44,8 @@ Você deve criar uma solução que execute os seguintes 3 passos:
 ### **3. Avaliação do Modelo**
 
 * Avalie o modelo utilizando os dados de teste.
-* Apresente a Matriz de Confusão
-* Apresente as seguintes métricas: acurácia, precision, recall, F1-score
+* Apresente a Matriz de Confusão.
+* Apresente as seguintes métricas: acurácia, precision, recall, F1-score.
 
 
 ## Observações
