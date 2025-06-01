@@ -3,6 +3,20 @@
 **Conjunto de Dados:**
 [Dataset](https://github.com/gbhgit/tests/machine-learning-test/data.csv)
 
+Features (X):
+* Gender: Male / Female
+* Height: Number (cm)
+* Weight: Number (Kg)
+
+Target (Y):
+* Index (Classificação categórica do IMC)
+  * 0: Extremely Weak
+  * 1: Weak
+  * 2: Normal
+  * 3: Overweight
+  * 4: Obesity
+  * 5: Extreme Obesity
+
 **Objetivo:**
 Construir um modelo que classifique as categorias de IMC com base nas variáveis fornecidas.
 
