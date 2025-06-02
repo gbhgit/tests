@@ -45,5 +45,6 @@ Você deve criar uma solução que execute os seguintes 3 passos:
 
 
 ## Observações
+* Os dados de entrada precisam ser filtrados, com objetivo de remover das amostras: dados duplicados; dados que tenham algum erro de escrita ou de valores.
 * Você pode utilizar as seguintes bibliotecas: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `joblib`, `pickle`.
 * Use seu julgamento de como tratar o desbalanceamento.
