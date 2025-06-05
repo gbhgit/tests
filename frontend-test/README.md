@@ -33,7 +33,7 @@ Simular uma tela onde o usuário pode **iniciar um processo assíncrono**, e o a
 
 ### Informações Adicionais
 
-* Utilize o arquivo mockAPI.js para testar a simulação das chamadas da API;
+* Utilize o arquivo [mockAPI.js](https://github.com/gbhgit/tests/blob/main/frontend-test/mockAPI.js) para testar a simulação das chamadas da API;
 * Utilizar a ferramenta https://playcode.io/react para desenvolver essa solução;
 
 ### Exemplo
