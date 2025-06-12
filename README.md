@@ -9,7 +9,7 @@
 #### 🟡 **Nível Intermediário**
 
 4. [**Data Science & ML – Harvard**](https://pll.harvard.edu/course/data-science-machine-learning)
-5. [**Machine Learning with Python – IBM**](https://lnkd.in/eb2eMYt9)
+5. [**Machine Learning with Python – IBM**](https://www.coursera.org/learn/machine-learning-with-python)
 6. [**TensorFlow – Google Cloud**](https://www.coursera.org/learn/machine-learning-with-python)
 7. [**Structuring ML Projects – Deeplearning.ai**](https://www.coursera.org/learn/machine-learning-projects)
 
