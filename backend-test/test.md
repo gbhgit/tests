@@ -7,7 +7,7 @@
 
 - Você possui um endpoint `GET` que anteriormente respondia em aproximadamente 300ms e passou a responder em 10 segundos. O endpoint realiza consultas ao banco de dados e retorna uma lista paginada de dados. Descreva seu processo de investigação e responda: Quais são as possíveis causas da degradação de performance ? Como você validaria a solução antes de colocá-la em produção ?
 
-- Você tem uma task Celery que processa pagamentos. Em produção, observa-se que alguns pagamentos são cobrados duas vezes. Ao investigar, descobre que a task pode ser executada mais de uma vez em certos cenários. Explique:
+- Você tem uma task Celery que processa pagamentos. Em produção, observa-se que alguns pagamentos são cobrados duas vezes. Ao investigar, descobre que a task pode ser executada mais de uma vez em certos cenários.
 
 - Você tem um endpoint Django que precisa chamar 5 microserviços externos em sequência para montar uma resposta consolidada. O tempo médio de resposta de cada serviço é 300ms, resultando em ~1.5s de latência total. Como você resolveria esse problema? Discuta pelo menos duas abordagens, seus trade-offs e como cada uma se encaixa em um projeto Django tradicional (WSGI) versus Django com ASGI.
 
