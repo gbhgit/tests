@@ -1,15 +1,11 @@
 - Explique a diferença entre os métodos HTTP `PUT` e `PATCH`.
 
-- Você possui um endpoint `GET` que anteriormente respondia em aproximadamente 300ms e passou a responder em 10 segundos. O endpoint realiza consultas ao banco de dados e retorna uma lista paginada de dados.
-Descreva seu processo de investigação e responda: Quais são as possíveis causas da degradação de performance ? Como você validaria a solução antes de colocá-la em produção?
-
 - Explique o conceito de indexação em bancos de dados relacionais.
-
 - Explique as diferenças entre `PRIMARY KEY` e `UNIQUE` em bancos de dados SQL.
 
 - Em produção, usuários relatam lentidão intermitente em operações de escrita. Durante a investigação, você identifica que existem transações aguardando locks no banco. O que são locks em bancos relacionais ?
 
-- Em produção, você recebe alertas de que um endpoint específico que antes respondia em ~200ms passou a responder em ~8s de forma intermitente. O endpoint consulta o banco de dados e faz chamadas a um serviço externo. Não houve deploy recente. Descreva seu processo completo de investigação e resolução, incluindo as ferramentas que utilizaria e as hipóteses que investigaria.
+- Você possui um endpoint `GET` que anteriormente respondia em aproximadamente 300ms e passou a responder em 10 segundos. O endpoint realiza consultas ao banco de dados e retorna uma lista paginada de dados. Descreva seu processo de investigação e responda: Quais são as possíveis causas da degradação de performance ? Como você validaria a solução antes de colocá-la em produção ?
 
 - Você tem uma task Celery que processa pagamentos. Em produção, observa-se que alguns pagamentos são cobrados duas vezes. Ao investigar, descobre que a task pode ser executada mais de uma vez em certos cenários. Explique:
 
